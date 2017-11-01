@@ -1,5 +1,5 @@
 setwd("/Users/sachitmahajan/Desktop/untitled")
-dat <-read.csv("best3.csv")
+dat <-read.csv("filename.csv")
 library(forecast)
 attach(dat)
 newdata <- dat[1:620,] #only when subsetting data
